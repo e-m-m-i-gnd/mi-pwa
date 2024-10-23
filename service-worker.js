@@ -1,9 +1,11 @@
-const CACHE_NAME = 'pwa-images-cache-v1';
+const CACHE_NAME = 'pwa-cache-v1';
 const FILES_TO_CACHE = [
   '/',
   '/index.html',
   '/manifest.json',
-  '/images/icon-192x192.png',
+  '/app.js',
+  '/style.css',
+  '/images/icon-128x128.png',
   '/images/icon-512x512.png'
 ];
 
