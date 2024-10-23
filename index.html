@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Una aplicación web progresiva para tomar notas.">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>Notas PWA</title>
+</head>
+<body>
+  <header>
+    <h1>Mi Aplicación de Notas</h1>
+    <p>Organiza tus ideas fácilmente</p>
+  </header>
+  <main>
+    <div class="form-container">
+      <form id="noteForm">
+        <label for="noteInput">Escribe tu nota:</label>
+        <textarea id="noteInput" placeholder="Escribe aquí..." rows="4"></textarea>
+        <button type="submit">Agregar Nota</button>
+      </form>
+      <div id="notesContainer"></div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Mi PWA de Notas</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
